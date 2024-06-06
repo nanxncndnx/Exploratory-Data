@@ -14,7 +14,7 @@
  - For numeric columns, we check for **Zeroes** and **NaN**
  - For array type columns, we check if the array contain **Zeroes** or **NaN**
 
-### Calculating Total of the Workout Records and Gender Segregation and Counting Their Activity :
+#### Calculating Total of the Workout Records and Gender Segregation and Counting Their Activity :
 
 <p align="center" width="100%">
   <br>
