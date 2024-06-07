@@ -96,7 +96,7 @@ elif selected == "Detect Missing Values":
     DMV.create_page(df)
 
 elif selected == "Pyspark Lazy Evaluation":
-    PLE.create_page()
+    PLE.create_page(df)
 
 elif selected == "Unstack Pyspark Dataframe":
     UPD.create_page()
