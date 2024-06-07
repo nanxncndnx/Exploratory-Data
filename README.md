@@ -22,3 +22,14 @@
   <br>
   <br>
 </p>
+
+## PySpark Lazy Evaluation
+
+ - Finding Top 5 **Sports** that have the Most **Users**
+ - Checking **Activities** by **Gender**
+
+<p align="center" width="100%">
+  <img width = "75%" src="./PysparkLazyEvaluation/result.png">
+  <br>
+  <br>
+</p>
