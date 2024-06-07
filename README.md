@@ -29,6 +29,7 @@
  - Checking **Activities** by **Gender**
 
 <p align="center" width="100%">
+  <br>
   <img width = "75%" src="./PysparkLazyEvaluation/result.png">
   <br>
   <br>
