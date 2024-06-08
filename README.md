@@ -34,3 +34,16 @@
   <br>
   <br>
 </p>
+
+## UNSTACK PYSPARK DATAFRAME
+
+ - Top **Activities** By Gender
+ - How many **People** **Participated** in more than 1 **Sport ?**
+ - Number of **Users** having more than **10 Workouts**
+
+<p align="center" width="100%">
+  <br>
+  <img width = "75%" src="./UnstackPysparkDataframe/result.png">
+  <br>
+  <br>
+</p>  
