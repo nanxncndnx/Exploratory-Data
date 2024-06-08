@@ -17,7 +17,7 @@ from pyspark.sql.functions import lit, desc, col, size, array_contains\
 # For numeric columns, we check for zeroes and NaN
 # For array type columns, we check if the array contain zeroes or NaN
 
-def create_page(df):
+def create_page_DMV(df):
     st.subheader(':green[Columns overview]')
     columns_overview = pd.DataFrame(df.dtypes, columns = ['Column Name','Data type'])
     st.table(columns_overview)

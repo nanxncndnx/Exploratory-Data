@@ -18,7 +18,7 @@
 
 <p align="center" width="100%">
   <br>
-  <img width = "75%" src="./DetectMissingValues/result.png">
+  <img width = "84%" src="./DetectMissingValues/result.png">
   <br>
   <br>
 </p>

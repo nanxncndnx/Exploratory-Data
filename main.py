@@ -4,9 +4,6 @@ from dotenv import load_dotenv
 import pandas as pd
 from pandas import DataFrame
 import numpy as np
-import matplotlib.pyplot as plt
-import matplotlib.ticker as mtick
-import matplotlib
 from mpl_toolkits.mplot3d import Axes3D
 import math
 from datetime import *
@@ -93,16 +90,16 @@ if selected == "Docs":
     st.subheader(":green[Hello] From Docs")
 
 elif selected == "Detect Missing Values":
-    DMV.create_page(df)
+    DMV.create_page_DMV(df)
 
 elif selected == "Pyspark Lazy Evaluation":
-    PLE.create_page(df)
+    PLE.create_page_PLE(df)
 
 elif selected == "Unstack Pyspark Dataframe":
-    UPD.create_page()
+    UPD.create_page_UDP(df)
 
 elif selected == "Pyspark UDF Registering":
-    PUR.create_page()
+    PUR.create_page(df)
 
 elif selected == "RDD":
-    RDD.create_page() 
+    RDD.create_page(df) 

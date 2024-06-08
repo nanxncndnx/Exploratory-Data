@@ -1,11 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-import matplotlib.pyplot as plt
-import matplotlib.ticker as mtick
-import matplotlib
-
-def create_page(df):
+def create_page_PLE(df):
     ranked_sport_users_df = df.select(df.sport, df.userId) \
         .distinct() \
         .groupBy(df.sport) \
