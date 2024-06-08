@@ -47,3 +47,24 @@
   <br>
   <br>
 </p>  
+
+## Pyspark UDF Registering
+
+ - Convert a timestamp column into **Datetime.Datetime**
+ - Get the duration (in minutes) of a list of datetime values
+ - Get the **Workout** start time of the datetime list
+ - Get list of intervals within a **Workout**
+ - Create new **date_time** column to convert from timestamp into python's datetime format
+ - Create **workout_start_time** column to get the start time of each **workout/row**
+ - Create interval column from the date_time column
+
+<p align="center" width="100%">
+  <br>
+  <img src="./PysparkUdfRegistering/result.png">
+  <br>
+  <br>
+</p>  
+
+## RDD
+### In Progress
+#### guys last part honesty is extremely hard please be patient XD
