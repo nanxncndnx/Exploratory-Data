@@ -99,7 +99,7 @@ elif selected == "Unstack Pyspark Dataframe":
     UPD.create_page_UDP(df)
 
 elif selected == "Pyspark UDF Registering":
-    PUR.create_page(df)
+    PUR.create_page_PUR(df)
 
 elif selected == "RDD":
     RDD.create_page(df) 
